@@ -5,10 +5,10 @@ apm compile
 
 $profiles = Get-ChildItem -Path .\profiles
 
-foreach ($profile in $profiles) {
-    if ($profile.PSIsContainer) {
-        Write-Host "Compiling profile: $($profile.Name)"
-        Push-Location -Path $profile.FullName
+foreach ($p in $profiles) {
+    if ($p.PSIsContainer) {
+        Write-Host "Compiling profile: $($p.Name)"
+        Push-Location -Path $p.FullName
         apm install
         apm compile
         Pop-Location
