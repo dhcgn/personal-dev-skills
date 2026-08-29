@@ -1,0 +1,24 @@
+name: go-dev
+version: 1.0.0
+description: APM project for go-dev
+author: Daniel
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-build, kiro, opencode, windsurf
+targets:
+- opencode
+dependencies:
+  apm: 
+  - dhcgn/personal-dev-skills/.apm/skills/gh
+  - dhcgn/personal-dev-skills/.apm/skills/go-1-27-features
+  - dhcgn/personal-dev-skills/.apm/skills/go-linq
+  - dhcgn/personal-dev-skills/.apm/skills/go-newest-version
+  - dhcgn/personal-dev-skills/.apm/skills/markdown-from-website
+  - dhcgn/personal-dev-skills/.apm/skills/rtk
+  - dhcgn/personal-dev-skills/.apm/skills/wsl
+  - DietrichGebert/ponytail
+  - spf13/go-skills
+  mcp: []
+includes: auto
+scripts: {}
+
