@@ -1,5 +1,5 @@
 lockfile_version: '1'
-generated_at: '2026-08-29T14:42:12.409009+00:00'
+generated_at: '2026-08-29T21:11:04.472035+00:00'
 apm_version: 0.28.0
 dependencies:
 - repo_url: dhcgn/personal-dev-skills
@@ -16,6 +16,20 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/gh/SKILL.md: sha256:fb77a6b4d05ed8491399f1868a0b280c917116c0a4a3120324b3ea340aeb8c37
   content_hash: sha256:11b1620bd3cd417f86cb6ae6af940cd13ffdba26ea6163d4ed88bc9a259d2d77
+- repo_url: dhcgn/personal-dev-skills
+  name: github-markdown-images
+  host: github.com
+  resolved_commit: f112e8e4434808b8c9597aa316bf153975a34f58
+  version: unknown
+  virtual_path: .apm/skills/github-markdown-images
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/github-markdown-images
+  - .agents/skills/github-markdown-images/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/github-markdown-images/SKILL.md: sha256:189ff0c432e2cdc1655dc6ec9a64a96372d0ece902c7ade8a9c86349c1ec34e7
+  content_hash: sha256:d5e9ab8cea311c665ef50b79b3240a41353417058bf3f8c957ab3e36938f575c
 - repo_url: dhcgn/personal-dev-skills
   name: go-1-27-features
   host: github.com
@@ -158,6 +172,24 @@ deployments:
   - dhcgn/personal-dev-skills/.apm/skills/gh
   active_owner: dhcgn/personal-dev-skills/.apm/skills/gh
   content_hash: sha256:fb77a6b4d05ed8491399f1868a0b280c917116c0a4a3120324b3ea340aeb8c37
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/github-markdown-images
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/github-markdown-images
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/github-markdown-images
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/github-markdown-images/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/github-markdown-images
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/github-markdown-images
+  content_hash: sha256:189ff0c432e2cdc1655dc6ec9a64a96372d0ece902c7ade8a9c86349c1ec34e7
 - kind: project-relative
   target: opencode
   value: .agents/skills/go-1-27-features
