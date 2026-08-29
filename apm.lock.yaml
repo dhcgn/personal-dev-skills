@@ -1,5 +1,5 @@
 lockfile_version: '1'
-generated_at: '2026-08-29T10:57:13.747685+00:00'
+generated_at: '2026-08-29T13:33:43.218774+00:00'
 apm_version: 0.28.0
 dependencies:
 - repo_url: dietrichgebert/ponytail
@@ -30,7 +30,67 @@ dependencies:
     .agents/skills/ponytail-review/SKILL.md: sha256:40df33b58fc6ef889b93585733feb9566b76e9586efa7f376785c1e995197ac0
     .agents/skills/ponytail/SKILL.md: sha256:1316a2f3f95741d2300b116fe0c2d81ce4a9568656ed0a62643f54aaf09957f2
   content_hash: sha256:595855eee726cb344087c38d7a3c29586ce8a0dd9a2e7ad8e8eedc91c8d8c575
+- repo_url: kepano/obsidian-skills
+  name: obsidian
+  host: github.com
+  resolved_commit: a1dc48e68138490d522c04cbf5822214c6eb1202
+  version: 1.0.1
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/defuddle
+  - .agents/skills/defuddle/SKILL.md
+  - .agents/skills/json-canvas
+  - .agents/skills/json-canvas/SKILL.md
+  - .agents/skills/json-canvas/references/EXAMPLES.md
+  - .agents/skills/obsidian-bases
+  - .agents/skills/obsidian-bases/SKILL.md
+  - .agents/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
+  - .agents/skills/obsidian-cli
+  - .agents/skills/obsidian-cli/SKILL.md
+  - .agents/skills/obsidian-markdown
+  - .agents/skills/obsidian-markdown/SKILL.md
+  - .agents/skills/obsidian-markdown/references/CALLOUTS.md
+  - .agents/skills/obsidian-markdown/references/EMBEDS.md
+  - .agents/skills/obsidian-markdown/references/PROPERTIES.md
+  deployed_file_hashes:
+    .agents/skills/defuddle/SKILL.md: sha256:10673a4dc70a0a057612d443243ab7a5aa4abdd4a0fadc3f6eec5fd71ad5a971
+    .agents/skills/json-canvas/SKILL.md: sha256:97d1ae0728955c4203922753d5656890e5e4dd371b8306ea11884f9b510f1b85
+    .agents/skills/json-canvas/references/EXAMPLES.md: sha256:f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
+    .agents/skills/obsidian-bases/SKILL.md: sha256:c0037f20926c7d8591cdd040365e4c0e4c0c4146386a506f28f241faee9a27d9
+    .agents/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md: sha256:208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b
+    .agents/skills/obsidian-cli/SKILL.md: sha256:b54257cdc0e5d04488b35b0c797bfe427b24359f0848d3c73924dcacf8da6358
+    .agents/skills/obsidian-markdown/SKILL.md: sha256:7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007
+    .agents/skills/obsidian-markdown/references/CALLOUTS.md: sha256:9912ec2e3f8711f65b8ceb82cc19cbffc5e6f8ccf2ab627e18926c522c383d8b
+    .agents/skills/obsidian-markdown/references/EMBEDS.md: sha256:63b6205507e28fb58cf200bc348a2b139e50ae739743e2e6316732148973cb7a
+    .agents/skills/obsidian-markdown/references/PROPERTIES.md: sha256:392953b5838c3ab3df135b5a914f100ae7b95e4501b6a2e5c8dc63da3ac7558b
+  content_hash: sha256:1dfebffc383e4df4bfacff628f0a2b05253d7da11c55d7756204c3e6e062dcf8
+  declared_license: MIT
+- repo_url: spf13/go-skills
+  name: go-skills
+  host: github.com
+  resolved_commit: e67851cfcca008592c7c4965b8220c7cb37e2f1c
+  version: e67851c
+  package_type: marketplace_plugin
+  content_hash: sha256:eb178c0b7b51540bc8224cc5c929dad9326e8bb2d65ee2e125dd2eaab05de2a1
 deployments:
+- kind: project-relative
+  target: agents
+  value: .agents/skills/encryption-and-cybersecurity-in-development
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/encryption-and-cybersecurity-in-development/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8a5fc1d6d154757000da7392bc43c1e1632b78417fa5102f88aaa09ae8017985
 - kind: project-relative
   target: agents
   value: .agents/skills/fileflow-pathologize
@@ -249,6 +309,60 @@ deployments:
   content_hash: sha256:5dc435290338d2c1ddbfa889027145fe6824ffef7de01d7db57f0ac9e9610124
 - kind: project-relative
   target: agents
+  value: .agents/skills/markdown-from-website
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/markdown-from-website/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9cdd8a342b42add7d7ffb09d0954f2d1aa56145c245edef444a8fb2c74de1ed0
+- kind: project-relative
+  target: agents
+  value: .agents/skills/markdown-from-website/scripts/get-markdown.ps1
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8f7cd9332537ce47e708b2c89240ac7aa6c3c7ed7946f16ba0535e98c1e9b1fa
+- kind: project-relative
+  target: agents
+  value: .agents/skills/markdown-from-website/scripts/get-markdown.sh
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:089fa053aa393ace92c89a363829836c759551b4a35f46364a796552f78138e4
+- kind: project-relative
+  target: agents
+  value: .agents/skills/rtk
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/rtk/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:a1250e77a0404e11156ee2709c8e592d70fcfc00df97169791dec7020a9f7141
+- kind: project-relative
+  target: agents
   value: .agents/skills/wails
   runtime: null
   scope: project
@@ -274,6 +388,159 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:d0ba7fc58aedef7689785a599ac1247821e27acc0d634d5ae2ede43093f5e856
+- kind: project-relative
+  target: agents
+  value: .agents/skills/wsl
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/wsl/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:37989ad169642b6351cf5ee4d3c37d8fa0ec3949c421ba6ead8a5105cd5151fc
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/defuddle
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/defuddle/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:10673a4dc70a0a057612d443243ab7a5aa4abdd4a0fadc3f6eec5fd71ad5a971
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/json-canvas
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/json-canvas/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:97d1ae0728955c4203922753d5656890e5e4dd371b8306ea11884f9b510f1b85
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/json-canvas/references/EXAMPLES.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-bases
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-bases/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:c0037f20926c7d8591cdd040365e4c0e4c0c4146386a506f28f241faee9a27d9
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-cli
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-cli/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:b54257cdc0e5d04488b35b0c797bfe427b24359f0848d3c73924dcacf8da6358
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-markdown
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-markdown/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-markdown/references/CALLOUTS.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:9912ec2e3f8711f65b8ceb82cc19cbffc5e6f8ccf2ab627e18926c522c383d8b
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-markdown/references/EMBEDS.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:63b6205507e28fb58cf200bc348a2b139e50ae739743e2e6316732148973cb7a
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/obsidian-markdown/references/PROPERTIES.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:392953b5838c3ab3df135b5a914f100ae7b95e4501b6a2e5c8dc63da3ac7558b
 - kind: project-relative
   target: opencode
   value: .agents/skills/ponytail
@@ -382,7 +649,18 @@ deployments:
   - dietrichgebert/ponytail
   active_owner: dietrichgebert/ponytail
   content_hash: sha256:1316a2f3f95741d2300b116fe0c2d81ce4a9568656ed0a62643f54aaf09957f2
+- kind: project-relative
+  target: opencode
+  value: .opencode/agents/spec-kit.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:a3db57b585824aee838c9eca7a1b2c037d65d3c8308468cf4264c4d217039f57
 local_deployed_files:
+- .agents/skills/encryption-and-cybersecurity-in-development
+- .agents/skills/encryption-and-cybersecurity-in-development/SKILL.md
 - .agents/skills/fileflow-pathologize
 - .agents/skills/fileflow-pathologize/.claude-plugin/plugin.json
 - .agents/skills/fileflow-pathologize/SKILL.md
@@ -407,10 +685,20 @@ local_deployed_files:
 - .agents/skills/lsp-setup
 - .agents/skills/lsp-setup/SKILL.md
 - .agents/skills/lsp-setup/references/lsp-servers.md
+- .agents/skills/markdown-from-website
+- .agents/skills/markdown-from-website/SKILL.md
+- .agents/skills/markdown-from-website/scripts/get-markdown.ps1
+- .agents/skills/markdown-from-website/scripts/get-markdown.sh
+- .agents/skills/rtk
+- .agents/skills/rtk/SKILL.md
 - .agents/skills/wails
 - .agents/skills/wails/.claude-plugin/plugin.json
 - .agents/skills/wails/SKILL.md
+- .agents/skills/wsl
+- .agents/skills/wsl/SKILL.md
+- .opencode/agents/spec-kit.md
 local_deployed_file_hashes:
+  .agents/skills/encryption-and-cybersecurity-in-development/SKILL.md: sha256:8a5fc1d6d154757000da7392bc43c1e1632b78417fa5102f88aaa09ae8017985
   .agents/skills/fileflow-pathologize/.claude-plugin/plugin.json: sha256:9d6354624b959a095e35d1bc877ab32efa1af1b4b35803c4e3ee110169644bae
   .agents/skills/fileflow-pathologize/SKILL.md: sha256:46737a2f2bd13e6dccad8d590b84a68d25fd072a1455fce98bb8c1d918a436e3
   .agents/skills/gh-skill/SKILL.md: sha256:5771c04aee6bc7c19fd5d963a0d42549c8f90a4f3a7bb7ad2c9843861730f801
@@ -425,5 +713,11 @@ local_deployed_file_hashes:
   .agents/skills/image-analysis/SKILL.md: sha256:40fe00d31f0f25c841aece562e93bb5050b23ee1caf9f7d51faff218bcf32a0f
   .agents/skills/lsp-setup/SKILL.md: sha256:1effd8b5a5532fd4c173d9c2f51f1877aef69bc4ed57c09bb8adfd7d9a62bdf4
   .agents/skills/lsp-setup/references/lsp-servers.md: sha256:5dc435290338d2c1ddbfa889027145fe6824ffef7de01d7db57f0ac9e9610124
+  .agents/skills/markdown-from-website/SKILL.md: sha256:9cdd8a342b42add7d7ffb09d0954f2d1aa56145c245edef444a8fb2c74de1ed0
+  .agents/skills/markdown-from-website/scripts/get-markdown.ps1: sha256:8f7cd9332537ce47e708b2c89240ac7aa6c3c7ed7946f16ba0535e98c1e9b1fa
+  .agents/skills/markdown-from-website/scripts/get-markdown.sh: sha256:089fa053aa393ace92c89a363829836c759551b4a35f46364a796552f78138e4
+  .agents/skills/rtk/SKILL.md: sha256:a1250e77a0404e11156ee2709c8e592d70fcfc00df97169791dec7020a9f7141
   .agents/skills/wails/.claude-plugin/plugin.json: sha256:0c7f2274f32b38c71b2343ec45926c39b4470cac0064170add40cfdcbdd75312
   .agents/skills/wails/SKILL.md: sha256:d0ba7fc58aedef7689785a599ac1247821e27acc0d634d5ae2ede43093f5e856
+  .agents/skills/wsl/SKILL.md: sha256:37989ad169642b6351cf5ee4d3c37d8fa0ec3949c421ba6ead8a5105cd5151fc
+  .opencode/agents/spec-kit.md: sha256:a3db57b585824aee838c9eca7a1b2c037d65d3c8308468cf4264c4d217039f57

@@ -1,6 +1,6 @@
-name: personal-skills
+name: personal-dev-skills-by-dhcgn
 version: 1.0.0
-description: APM project for personal-skills
+description: APM project for personal-dev-skills by dhcgn
 author: Daniel
 # Which agent platforms to deploy to (uncomment to pin):
 # targets:
@@ -10,6 +10,8 @@ author: Daniel
 dependencies:
   apm: 
     - DietrichGebert/ponytail
+    - kepano/obsidian-skills
+    - spf13/go-skills
   mcp: []
 includes: auto
 scripts: {}
