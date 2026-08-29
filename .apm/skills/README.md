@@ -1,0 +1,1 @@
+A skill is a chunk of expertise that the runtime activates automatically based on its description. No slash command, no manual selection: the agent sees the description, decides the skill is relevant, and pulls it in. That auto-activation is what separates skills from prompts.
