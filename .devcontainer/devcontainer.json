@@ -1,0 +1,22 @@
+{
+    "name": "PDS Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/powershell:2": {
+            "version": "7.4"
+        },
+         "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "postCreateCommand": ".devcontainer/post-create.sh",
+    "postStartCommand": ".devcontainer/post-start.sh",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.powershell",
+                "redhat.vscode-yaml"
+            ]
+        }
+    }
+}
