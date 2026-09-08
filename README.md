@@ -6,7 +6,9 @@ Maybe these are useful for you too, I just begin to collect them. I will update 
 
 - <https://microsoft.github.io/apm/quickstart/>
 - `apm install dhcgn/personal-dev-skills`
-- `apm install dhcgn/personal-dev-skills/profiles/go-dev`
+- `apm install dhcgn/personal-dev-skills/profiles/dev-base`
+- `apm install dhcgn/personal-dev-skills/profiles/dev-go`
+- `apm install dhcgn/personal-dev-skills/profiles/dev-web`
 
 ## Development
 

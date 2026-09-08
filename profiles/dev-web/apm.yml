@@ -1,6 +1,6 @@
-name: obsidian
+name: dev-web
 version: 1.1.0
-description: APM project for obsidian
+description: APM project for dev-web
 author: Daniel
 # Which agent platforms to deploy to.
 # Resolution order: --target flag > this field > auto-detect from filesystem.
@@ -9,7 +9,7 @@ targets:
 - opencode
 dependencies:
   apm: 
-  - kepano/obsidian-skills
+  - dhcgn/personal-dev-skills/profiles/dev-base
   mcp: []
 includes: auto
 scripts: {}
