@@ -1,5 +1,5 @@
 lockfile_version: '1'
-generated_at: '2026-09-13T10:21:23.493247+00:00'
+generated_at: '2026-09-13T12:42:42.305150+00:00'
 apm_version: 0.28.0
 dependencies:
 - repo_url: dhcgn/personal-dev-skills
@@ -44,6 +44,20 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/glossary-create/SKILL.md: sha256:365526b6d299941976a22462e78e6b8dbc754b634a0f640fb9311a6d1efa8eb3
   content_hash: sha256:533bfe408f53c41c69672193a28fb86398be873d61bbcb05f5540d6a96d89352
+- repo_url: dhcgn/personal-dev-skills
+  name: glossary-create-issue
+  host: github.com
+  resolved_commit: f9fb2023ea32368239adf1c7cb518880df38954c
+  version: unknown
+  virtual_path: .apm/skills/glossary-create-issue
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/glossary-create-issue
+  - .agents/skills/glossary-create-issue/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/glossary-create-issue/SKILL.md: sha256:9e7353f76e019cf09353860afb2749ac3242dbd242d6714b2b79350e92c51ad2
+  content_hash: sha256:4d1c33d3aab78776b7bd4f47a2a1e6ecdaf9276e7d7b3c388d7bd30a2fedd3fe
 - repo_url: dhcgn/personal-dev-skills
   name: glossary-init
   host: github.com
@@ -204,6 +218,24 @@ deployments:
   - dhcgn/personal-dev-skills/.apm/skills/glossary-create
   active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create
   content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-create-issue
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-create-issue/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  content_hash: sha256:9e7353f76e019cf09353860afb2749ac3242dbd242d6714b2b79350e92c51ad2
 - kind: project-relative
   target: opencode
   value: .agents/skills/glossary-create/SKILL.md
