@@ -14,6 +14,11 @@ dependencies:
   - dhcgn/personal-dev-skills/.apm/skills/wsl
   - dhcgn/personal-dev-skills/.apm/skills/markdown-from-website
   - dhcgn/personal-dev-skills/.apm/skills/devcontainer-debug-windows
+
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-search
+
   - DietrichGebert/ponytail
   mcp: []
 includes: auto
