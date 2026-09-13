@@ -1,5 +1,5 @@
 name: dev-go
-version: 1.1.0
+version: 1.2.0
 description: APM project for dev-go
 author: Daniel
 # Which agent platforms to deploy to.
