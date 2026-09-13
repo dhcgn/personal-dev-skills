@@ -1,6 +1,7 @@
 ---
 name: glossary-create-issue
-description: Draft a GitHub issue for a generated-glossary repo (jl:-style keys) that reuses defined terms, proposes new ones with code anchors, and linkifies every key mention to repo-scoped code search. Use when asked to create, draft, or polish an issue in a repo whose vocabulary lives in jl: source comments.
+description: >
+   Draft a GitHub issue for a generated-glossary repo (jl:-style keys) that reuses defined terms, proposes new ones with code anchors, and linkifies every key mention to repo-scoped code search. Use when asked to create, draft, or polish an issue in a repo whose vocabulary lives in jl: source comments.
 ---
 
 # Glossary create issue

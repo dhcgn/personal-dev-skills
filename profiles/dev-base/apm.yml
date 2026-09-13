@@ -18,6 +18,7 @@ dependencies:
   - dhcgn/personal-dev-skills/.apm/skills/glossary-init
   - dhcgn/personal-dev-skills/.apm/skills/glossary-create
   - dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
 
   - DietrichGebert/ponytail
   mcp: []
