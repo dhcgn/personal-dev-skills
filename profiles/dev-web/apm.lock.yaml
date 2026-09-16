@@ -1,20 +1,20 @@
 lockfile_version: '1'
-generated_at: '2026-09-16T11:33:05.778297+00:00'
+generated_at: '2026-09-16T17:09:13.317898+00:00'
 apm_version: 0.29.0
 dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: dev-base
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: 1.2.0
   virtual_path: profiles/dev-base
   is_virtual: true
   package_type: apm_package
-  content_hash: sha256:6ec2b3d9df10f347ee37989f7880089b64684eedc654bc944562e72eadde5fcc
+  content_hash: sha256:4a97b7dd9b994263efc47c79d83cb1298e391e55d0b28b749dd207569b4fe6b1
 - repo_url: dhcgn/personal-dev-skills
   name: devcontainer-debug-windows
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/devcontainer-debug-windows
   is_virtual: true
@@ -30,7 +30,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: gh
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/gh
   is_virtual: true
@@ -46,7 +46,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: glossary-create
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/glossary-create
   is_virtual: true
@@ -62,7 +62,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: glossary-create-issue
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/glossary-create-issue
   is_virtual: true
@@ -78,7 +78,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: glossary-init
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/glossary-init
   is_virtual: true
@@ -102,7 +102,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: glossary-search
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/glossary-search
   is_virtual: true
@@ -122,7 +122,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: markdown-from-website
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/markdown-from-website
   is_virtual: true
@@ -142,7 +142,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: rtk
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/rtk
   is_virtual: true
@@ -158,7 +158,7 @@ dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: wsl
   host: github.com
-  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  resolved_commit: 748f557317bfad03b1d65958b4b29fc4bd29e339
   version: unknown
   virtual_path: .apm/skills/wsl
   is_virtual: true
@@ -176,7 +176,7 @@ dependencies:
   name: ponytail
   host: github.com
   resolved_commit: e3ba2aa6f1e6f0bc4d69eb09c9f0d0a93af56156
-  version: e3ba2aa
+  version: 0.0.0
   depth: 2
   resolved_by: dhcgn/personal-dev-skills
   package_type: marketplace_plugin

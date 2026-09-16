@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://microsoft.github.io/apm/specs/schemas/manifest-v0.1.schema.json
 name: dev-go
 version: 1.2.0
 description: APM project for dev-go
