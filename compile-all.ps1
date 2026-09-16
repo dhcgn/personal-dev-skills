@@ -1,6 +1,6 @@
 Set-Location -Path $PSScriptRoot
 
-apm install --update
+apm install -t opencode --update
 apm compile
 
 $profiles = Get-ChildItem -Path .\profiles

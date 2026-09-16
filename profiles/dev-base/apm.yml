@@ -21,6 +21,7 @@ dependencies:
   - dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
 
   - DietrichGebert/ponytail
+  - cloudflare/security-audit-skill
   mcp: []
 includes: auto
 scripts: {}

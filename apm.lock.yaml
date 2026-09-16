@@ -1,13 +1,63 @@
 lockfile_version: '1'
-generated_at: '2026-08-29T13:33:43.218774+00:00'
-apm_version: 0.28.0
+generated_at: '2026-09-16T16:57:34.708825+00:00'
+apm_version: 0.29.0
 dependencies:
+- repo_url: cloudflare/security-audit-skill
+  name: security-audit-skill
+  host: github.com
+  resolved_commit: c1c8a8c1471069fb0e188eeaff69b8e8db6564a8
+  version: 0.0.0
+  package_type: skill_bundle
+  deployed_files:
+  - .agents/skills/security-audit
+  - .agents/skills/security-audit/AI-AND-LLM.md
+  - .agents/skills/security-audit/ATTACK-CLASSES.md
+  - .agents/skills/security-audit/CLIENT-SIDE.md
+  - .agents/skills/security-audit/CLOUD-AND-DEPLOYMENT.md
+  - .agents/skills/security-audit/DATA-ISOLATION-AND-LIFECYCLE.md
+  - .agents/skills/security-audit/DESKTOP-MOBILE-AND-LOCAL-IPC.md
+  - .agents/skills/security-audit/HUNTING.md
+  - .agents/skills/security-audit/MEMORY-SAFETY-AND-BINARY.md
+  - .agents/skills/security-audit/PROTOCOLS-RPC-AND-MESSAGING.md
+  - .agents/skills/security-audit/RECONNAISSANCE.md
+  - .agents/skills/security-audit/RESOURCE-EXHAUSTION-AND-AVAILABILITY.md
+  - .agents/skills/security-audit/SKILL.md
+  - .agents/skills/security-audit/SUPPLY-CHAIN-AND-RELEASE.md
+  - .agents/skills/security-audit/VALIDATION-AND-REPORTING.md
+  - .agents/skills/security-audit/WEB-PROTOCOL-AND-AUTH.md
+  - .agents/skills/security-audit/report-schema.json
+  - .agents/skills/security-audit/validate-coverage-ledger.cjs
+  - .agents/skills/security-audit/validate-coverage-ledger.test.cjs
+  - .agents/skills/security-audit/validate-findings.cjs
+  - .agents/skills/security-audit/validate-findings.test.cjs
+  deployed_file_hashes:
+    .agents/skills/security-audit/AI-AND-LLM.md: sha256:7335a95c43554eadefcf03ece639291bb0e038c398a179299e3887ffe06bd2ef
+    .agents/skills/security-audit/ATTACK-CLASSES.md: sha256:3ee4f00c6e8c9dcf6dd02dd5ac2a4ceb322e2085f3e9fbe79cf0c6330bc7ef83
+    .agents/skills/security-audit/CLIENT-SIDE.md: sha256:613f6b98f86083e045525c5b60154ffdab122bac35f1e05eb17488e6e453370c
+    .agents/skills/security-audit/CLOUD-AND-DEPLOYMENT.md: sha256:3c80f3088be22345e07b057c056d6ed99fe2b0304f794398964f7ccd5a496ca3
+    .agents/skills/security-audit/DATA-ISOLATION-AND-LIFECYCLE.md: sha256:307dcb3e24d292715c4a041190e7bb135646a37eb6187619ae01d000a634a4ad
+    .agents/skills/security-audit/DESKTOP-MOBILE-AND-LOCAL-IPC.md: sha256:58eae8ee0ca6a46611c501ec5a3ab47fdff88dd7db0d8d74789bbf8bb19d8cb2
+    .agents/skills/security-audit/HUNTING.md: sha256:71c121decea1322c47c718f6e110f1a892980bb4266bd7ac55ef043a213ade09
+    .agents/skills/security-audit/MEMORY-SAFETY-AND-BINARY.md: sha256:7c8b0dccfb35315cca2455509674d49632b2fe37e1f3aac16c1a496a7e9924a7
+    .agents/skills/security-audit/PROTOCOLS-RPC-AND-MESSAGING.md: sha256:8b73816fa5b3697c9c40977f0c836b40f01d6e81929ff2720fe83ce089e9a619
+    .agents/skills/security-audit/RECONNAISSANCE.md: sha256:02ca887aca84de8ae137f1891bd2f0a54f28d3fa6da92a27f54734382b3381a2
+    .agents/skills/security-audit/RESOURCE-EXHAUSTION-AND-AVAILABILITY.md: sha256:4326fab5c92a0b4c420a70196254040105cd794026562130b59bf1a6db3e4baa
+    .agents/skills/security-audit/SKILL.md: sha256:5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85
+    .agents/skills/security-audit/SUPPLY-CHAIN-AND-RELEASE.md: sha256:f372e919940e335468ba1ae09f99026c3986a345f7fe26f8068f132e199f52a5
+    .agents/skills/security-audit/VALIDATION-AND-REPORTING.md: sha256:b892470cb89bb31f33403e050d4bdfbe2cdaef940ade1496fa65e32b2e129449
+    .agents/skills/security-audit/WEB-PROTOCOL-AND-AUTH.md: sha256:4f3066dffa23c5635859187be9b96c32f2aff29a688186b91ff0c63e47d62b5c
+    .agents/skills/security-audit/report-schema.json: sha256:6575c9de4a62255699ea052ebf9a49ebfb373a32891bcd89af6f55cc84b35519
+    .agents/skills/security-audit/validate-coverage-ledger.cjs: sha256:2eb280bd2e33c002916f86db9b29f9edfedb6454e5db973c766290465b868ac8
+    .agents/skills/security-audit/validate-coverage-ledger.test.cjs: sha256:cfb9df26b03469a4279a70e7664a2a5434dd6f8c2c204e91f9b0aeb9dd71e648
+    .agents/skills/security-audit/validate-findings.cjs: sha256:e85f232e36bfac0f866f244da50376692d6b45c690beadcb00608b0e6c8b5283
+    .agents/skills/security-audit/validate-findings.test.cjs: sha256:b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b
+  content_hash: sha256:414184860d72fa1d44fbdf8267672fec765ddab1f2e7c12f8c859122e2223adb
 - repo_url: dietrichgebert/ponytail
   materialization_repo_url: DietrichGebert/ponytail
   name: ponytail
   host: github.com
-  resolved_commit: 2ed6c52c9d7e5e56942508591085fd45dea277d3
-  version: 2ed6c52
+  resolved_commit: e3ba2aa6f1e6f0bc4d69eb09c9f0d0a93af56156
+  version: e3ba2aa
   package_type: marketplace_plugin
   deployed_files:
   - .agents/skills/ponytail
@@ -29,11 +79,11 @@ dependencies:
     .agents/skills/ponytail-help/SKILL.md: sha256:2264d1615117b02b0fd5a69ec84cd2757006471a78e4d6c22eed6d581c1d37a4
     .agents/skills/ponytail-review/SKILL.md: sha256:40df33b58fc6ef889b93585733feb9566b76e9586efa7f376785c1e995197ac0
     .agents/skills/ponytail/SKILL.md: sha256:1316a2f3f95741d2300b116fe0c2d81ce4a9568656ed0a62643f54aaf09957f2
-  content_hash: sha256:595855eee726cb344087c38d7a3c29586ce8a0dd9a2e7ad8e8eedc91c8d8c575
+  content_hash: sha256:354782f4c5dea17ec651d2c8eefa1a5be4f0e16d78caa76a9840f541f238f98d
 - repo_url: kepano/obsidian-skills
   name: obsidian
   host: github.com
-  resolved_commit: a1dc48e68138490d522c04cbf5822214c6eb1202
+  resolved_commit: 3ccff5338ea700537839b21900aa5358a0402c98
   version: 1.0.1
   package_type: marketplace_plugin
   deployed_files:
@@ -42,6 +92,8 @@ dependencies:
   - .agents/skills/json-canvas
   - .agents/skills/json-canvas/SKILL.md
   - .agents/skills/json-canvas/references/EXAMPLES.md
+  - .agents/skills/knap
+  - .agents/skills/knap/SKILL.md
   - .agents/skills/obsidian-bases
   - .agents/skills/obsidian-bases/SKILL.md
   - .agents/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
@@ -53,9 +105,10 @@ dependencies:
   - .agents/skills/obsidian-markdown/references/EMBEDS.md
   - .agents/skills/obsidian-markdown/references/PROPERTIES.md
   deployed_file_hashes:
-    .agents/skills/defuddle/SKILL.md: sha256:10673a4dc70a0a057612d443243ab7a5aa4abdd4a0fadc3f6eec5fd71ad5a971
+    .agents/skills/defuddle/SKILL.md: sha256:8669cdcc9f7b4679a49753d2d7f8ee4d90c3119305d866d6c439aa1cbacb83f3
     .agents/skills/json-canvas/SKILL.md: sha256:97d1ae0728955c4203922753d5656890e5e4dd371b8306ea11884f9b510f1b85
     .agents/skills/json-canvas/references/EXAMPLES.md: sha256:f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
+    .agents/skills/knap/SKILL.md: sha256:ef5666573358cd7d18e04195f3e7c473b88d3e3140c41ab59bbee01c81e9989f
     .agents/skills/obsidian-bases/SKILL.md: sha256:c0037f20926c7d8591cdd040365e4c0e4c0c4146386a506f28f241faee9a27d9
     .agents/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md: sha256:208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b
     .agents/skills/obsidian-cli/SKILL.md: sha256:b54257cdc0e5d04488b35b0c797bfe427b24359f0848d3c73924dcacf8da6358
@@ -63,7 +116,7 @@ dependencies:
     .agents/skills/obsidian-markdown/references/CALLOUTS.md: sha256:9912ec2e3f8711f65b8ceb82cc19cbffc5e6f8ccf2ab627e18926c522c383d8b
     .agents/skills/obsidian-markdown/references/EMBEDS.md: sha256:63b6205507e28fb58cf200bc348a2b139e50ae739743e2e6316732148973cb7a
     .agents/skills/obsidian-markdown/references/PROPERTIES.md: sha256:392953b5838c3ab3df135b5a914f100ae7b95e4501b6a2e5c8dc63da3ac7558b
-  content_hash: sha256:1dfebffc383e4df4bfacff628f0a2b05253d7da11c55d7756204c3e6e062dcf8
+  content_hash: sha256:5e30e734e5ac4fb3e257283bde51ea0fdd9759126364fe17fa8384109846db77
   declared_license: MIT
 - repo_url: spf13/go-skills
   name: go-skills
@@ -71,8 +124,44 @@ dependencies:
   resolved_commit: e67851cfcca008592c7c4965b8220c7cb37e2f1c
   version: e67851c
   package_type: marketplace_plugin
-  content_hash: sha256:eb178c0b7b51540bc8224cc5c929dad9326e8bb2d65ee2e125dd2eaab05de2a1
+  content_hash: sha256:3b30f4cc52405e7f29898471d6627568397ff9c499c8c5faf0ec540a09fb9906
 deployments:
+- kind: project-relative
+  target: agents
+  value: .agents/skills/devcontainer-debug-windows
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/devcontainer-debug-windows/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:ddcbef8c331f161541d08f00fa682c1350c910d1f2dadacd395d072d13d9a8bd
+- kind: project-relative
+  target: agents
+  value: .agents/skills/devsecops-subdomain-finder
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/devsecops-subdomain-finder/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:e723655d7c63d0c2bce86ede0fc093570c415fb65ce4552ba3c48048cc44e4d0
 - kind: project-relative
   target: agents
   value: .agents/skills/encryption-and-cybersecurity-in-development
@@ -154,6 +243,150 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:fb77a6b4d05ed8491399f1868a0b280c917116c0a4a3120324b3ea340aeb8c37
+- kind: project-relative
+  target: agents
+  value: .agents/skills/github-markdown-images
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/github-markdown-images/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:189ff0c432e2cdc1655dc6ec9a64a96372d0ece902c7ade8a9c86349c1ec34e7
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-create
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-create-issue
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-create-issue/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9e7353f76e019cf09353860afb2749ac3242dbd242d6714b2b79350e92c51ad2
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-create/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:365526b6d299941976a22462e78e6b8dbc754b634a0f640fb9311a6d1efa8eb3
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-init
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-init/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8acf3ce62cda3cc79dfae042f41480044696fae2228f26a94d08844ab263a947
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-init/assets/glossary/gen/main.go
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:28c5a5b1601b4e76f10db73738351007a53be98a7af243dcb90794d4c83411d6
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-init/assets/glossary/generate.go
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:30b4274b63640d696755a9ba1571064608de1e9fdbf8757a117277ad070f7fe1
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-init/assets/glossary/glossary.go
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c0412ce6c096475265030d8f092fd9a465f4a566396ed7f302319fc3002b3bec
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-init/assets/glossary/glossary_test.go
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1cf2beefef600567416ee421a596c329e796c6f3105b36cf6b9686464107900e
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-search
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-search/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f52ad0353e6e2af62aa9742795384dd42d46c01ecf742c96f9bac94255c3e357
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-search/scripts/glossary-search.ps1
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:35a595203dcd71272f5193f984fd3eb2dc47dc99bc081af69e0d121be8477c16
+- kind: project-relative
+  target: agents
+  value: .agents/skills/glossary-search/scripts/glossary-search.sh
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:2b988135a2039bd4eeae11ee964557ac3e4bb34620715decc41670f4ca9635d6
 - kind: project-relative
   target: agents
   value: .agents/skills/go-1-27-features
@@ -423,7 +656,7 @@ deployments:
   owners:
   - kepano/obsidian-skills
   active_owner: kepano/obsidian-skills
-  content_hash: sha256:10673a4dc70a0a057612d443243ab7a5aa4abdd4a0fadc3f6eec5fd71ad5a971
+  content_hash: sha256:8669cdcc9f7b4679a49753d2d7f8ee4d90c3119305d866d6c439aa1cbacb83f3
 - kind: project-relative
   target: opencode
   value: .agents/skills/json-canvas
@@ -451,6 +684,24 @@ deployments:
   - kepano/obsidian-skills
   active_owner: kepano/obsidian-skills
   content_hash: sha256:f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/knap
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/knap/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - kepano/obsidian-skills
+  active_owner: kepano/obsidian-skills
+  content_hash: sha256:ef5666573358cd7d18e04195f3e7c473b88d3e3140c41ab59bbee01c81e9989f
 - kind: project-relative
   target: opencode
   value: .agents/skills/obsidian-bases
@@ -651,6 +902,195 @@ deployments:
   content_hash: sha256:1316a2f3f95741d2300b116fe0c2d81ce4a9568656ed0a62643f54aaf09957f2
 - kind: project-relative
   target: opencode
+  value: .agents/skills/security-audit
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/AI-AND-LLM.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:7335a95c43554eadefcf03ece639291bb0e038c398a179299e3887ffe06bd2ef
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/ATTACK-CLASSES.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:3ee4f00c6e8c9dcf6dd02dd5ac2a4ceb322e2085f3e9fbe79cf0c6330bc7ef83
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/CLIENT-SIDE.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:613f6b98f86083e045525c5b60154ffdab122bac35f1e05eb17488e6e453370c
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/CLOUD-AND-DEPLOYMENT.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:3c80f3088be22345e07b057c056d6ed99fe2b0304f794398964f7ccd5a496ca3
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/DATA-ISOLATION-AND-LIFECYCLE.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:307dcb3e24d292715c4a041190e7bb135646a37eb6187619ae01d000a634a4ad
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/DESKTOP-MOBILE-AND-LOCAL-IPC.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:58eae8ee0ca6a46611c501ec5a3ab47fdff88dd7db0d8d74789bbf8bb19d8cb2
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/HUNTING.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:71c121decea1322c47c718f6e110f1a892980bb4266bd7ac55ef043a213ade09
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/MEMORY-SAFETY-AND-BINARY.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:7c8b0dccfb35315cca2455509674d49632b2fe37e1f3aac16c1a496a7e9924a7
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/PROTOCOLS-RPC-AND-MESSAGING.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:8b73816fa5b3697c9c40977f0c836b40f01d6e81929ff2720fe83ce089e9a619
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/RECONNAISSANCE.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:02ca887aca84de8ae137f1891bd2f0a54f28d3fa6da92a27f54734382b3381a2
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/RESOURCE-EXHAUSTION-AND-AVAILABILITY.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:4326fab5c92a0b4c420a70196254040105cd794026562130b59bf1a6db3e4baa
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/SUPPLY-CHAIN-AND-RELEASE.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:f372e919940e335468ba1ae09f99026c3986a345f7fe26f8068f132e199f52a5
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/VALIDATION-AND-REPORTING.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:b892470cb89bb31f33403e050d4bdfbe2cdaef940ade1496fa65e32b2e129449
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/WEB-PROTOCOL-AND-AUTH.md
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:4f3066dffa23c5635859187be9b96c32f2aff29a688186b91ff0c63e47d62b5c
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/report-schema.json
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:6575c9de4a62255699ea052ebf9a49ebfb373a32891bcd89af6f55cc84b35519
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/validate-coverage-ledger.cjs
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:2eb280bd2e33c002916f86db9b29f9edfedb6454e5db973c766290465b868ac8
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/validate-coverage-ledger.test.cjs
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:cfb9df26b03469a4279a70e7664a2a5434dd6f8c2c204e91f9b0aeb9dd71e648
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/validate-findings.cjs
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:e85f232e36bfac0f866f244da50376692d6b45c690beadcb00608b0e6c8b5283
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/security-audit/validate-findings.test.cjs
+  runtime: null
+  scope: project
+  owners:
+  - cloudflare/security-audit-skill
+  active_owner: cloudflare/security-audit-skill
+  content_hash: sha256:b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b
+- kind: project-relative
+  target: opencode
   value: .opencode/agents/spec-kit.md
   runtime: null
   scope: project
@@ -658,7 +1098,20 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:a3db57b585824aee838c9eca7a1b2c037d65d3c8308468cf4264c4d217039f57
+- kind: project-relative
+  target: opencode
+  value: .opencode/agents/tgrep.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c23d293ed69df0022a63f30dc0c43856dcb3d1e741bc94fce93036b03b1f858c
 local_deployed_files:
+- .agents/skills/devcontainer-debug-windows
+- .agents/skills/devcontainer-debug-windows/SKILL.md
+- .agents/skills/devsecops-subdomain-finder
+- .agents/skills/devsecops-subdomain-finder/SKILL.md
 - .agents/skills/encryption-and-cybersecurity-in-development
 - .agents/skills/encryption-and-cybersecurity-in-development/SKILL.md
 - .agents/skills/fileflow-pathologize
@@ -668,6 +1121,22 @@ local_deployed_files:
 - .agents/skills/gh-skill
 - .agents/skills/gh-skill/SKILL.md
 - .agents/skills/gh/SKILL.md
+- .agents/skills/github-markdown-images
+- .agents/skills/github-markdown-images/SKILL.md
+- .agents/skills/glossary-create
+- .agents/skills/glossary-create-issue
+- .agents/skills/glossary-create-issue/SKILL.md
+- .agents/skills/glossary-create/SKILL.md
+- .agents/skills/glossary-init
+- .agents/skills/glossary-init/SKILL.md
+- .agents/skills/glossary-init/assets/glossary/gen/main.go
+- .agents/skills/glossary-init/assets/glossary/generate.go
+- .agents/skills/glossary-init/assets/glossary/glossary.go
+- .agents/skills/glossary-init/assets/glossary/glossary_test.go
+- .agents/skills/glossary-search
+- .agents/skills/glossary-search/SKILL.md
+- .agents/skills/glossary-search/scripts/glossary-search.ps1
+- .agents/skills/glossary-search/scripts/glossary-search.sh
 - .agents/skills/go-1-27-features
 - .agents/skills/go-1-27-features/SKILL.md
 - .agents/skills/go-linq
@@ -697,12 +1166,26 @@ local_deployed_files:
 - .agents/skills/wsl
 - .agents/skills/wsl/SKILL.md
 - .opencode/agents/spec-kit.md
+- .opencode/agents/tgrep.md
 local_deployed_file_hashes:
+  .agents/skills/devcontainer-debug-windows/SKILL.md: sha256:ddcbef8c331f161541d08f00fa682c1350c910d1f2dadacd395d072d13d9a8bd
+  .agents/skills/devsecops-subdomain-finder/SKILL.md: sha256:e723655d7c63d0c2bce86ede0fc093570c415fb65ce4552ba3c48048cc44e4d0
   .agents/skills/encryption-and-cybersecurity-in-development/SKILL.md: sha256:8a5fc1d6d154757000da7392bc43c1e1632b78417fa5102f88aaa09ae8017985
   .agents/skills/fileflow-pathologize/.claude-plugin/plugin.json: sha256:9d6354624b959a095e35d1bc877ab32efa1af1b4b35803c4e3ee110169644bae
   .agents/skills/fileflow-pathologize/SKILL.md: sha256:46737a2f2bd13e6dccad8d590b84a68d25fd072a1455fce98bb8c1d918a436e3
   .agents/skills/gh-skill/SKILL.md: sha256:5771c04aee6bc7c19fd5d963a0d42549c8f90a4f3a7bb7ad2c9843861730f801
   .agents/skills/gh/SKILL.md: sha256:fb77a6b4d05ed8491399f1868a0b280c917116c0a4a3120324b3ea340aeb8c37
+  .agents/skills/github-markdown-images/SKILL.md: sha256:189ff0c432e2cdc1655dc6ec9a64a96372d0ece902c7ade8a9c86349c1ec34e7
+  .agents/skills/glossary-create-issue/SKILL.md: sha256:9e7353f76e019cf09353860afb2749ac3242dbd242d6714b2b79350e92c51ad2
+  .agents/skills/glossary-create/SKILL.md: sha256:365526b6d299941976a22462e78e6b8dbc754b634a0f640fb9311a6d1efa8eb3
+  .agents/skills/glossary-init/SKILL.md: sha256:8acf3ce62cda3cc79dfae042f41480044696fae2228f26a94d08844ab263a947
+  .agents/skills/glossary-init/assets/glossary/gen/main.go: sha256:28c5a5b1601b4e76f10db73738351007a53be98a7af243dcb90794d4c83411d6
+  .agents/skills/glossary-init/assets/glossary/generate.go: sha256:30b4274b63640d696755a9ba1571064608de1e9fdbf8757a117277ad070f7fe1
+  .agents/skills/glossary-init/assets/glossary/glossary.go: sha256:c0412ce6c096475265030d8f092fd9a465f4a566396ed7f302319fc3002b3bec
+  .agents/skills/glossary-init/assets/glossary/glossary_test.go: sha256:1cf2beefef600567416ee421a596c329e796c6f3105b36cf6b9686464107900e
+  .agents/skills/glossary-search/SKILL.md: sha256:f52ad0353e6e2af62aa9742795384dd42d46c01ecf742c96f9bac94255c3e357
+  .agents/skills/glossary-search/scripts/glossary-search.ps1: sha256:35a595203dcd71272f5193f984fd3eb2dc47dc99bc081af69e0d121be8477c16
+  .agents/skills/glossary-search/scripts/glossary-search.sh: sha256:2b988135a2039bd4eeae11ee964557ac3e4bb34620715decc41670f4ca9635d6
   .agents/skills/go-1-27-features/SKILL.md: sha256:14c2bae9d227307a464dc199bb578e54ad0192d454f2f366b208e5a549ffd7db
   .agents/skills/go-linq/SKILL.md: sha256:dcb7a9f7ba9615fd5b5c91bf0b17ee23d13f026f05c797de49a678a5f160edb9
   .agents/skills/go-newest-version/SKILL.md: sha256:abf073d76b4af9d535c6f27d7271ac2dfb7ac4250ab34392236652757620fd9b
@@ -721,3 +1204,4 @@ local_deployed_file_hashes:
   .agents/skills/wails/SKILL.md: sha256:d0ba7fc58aedef7689785a599ac1247821e27acc0d634d5ae2ede43093f5e856
   .agents/skills/wsl/SKILL.md: sha256:37989ad169642b6351cf5ee4d3c37d8fa0ec3949c421ba6ead8a5105cd5151fc
   .opencode/agents/spec-kit.md: sha256:a3db57b585824aee838c9eca7a1b2c037d65d3c8308468cf4264c4d217039f57
+  .opencode/agents/tgrep.md: sha256:c23d293ed69df0022a63f30dc0c43856dcb3d1e741bc94fce93036b03b1f858c
