@@ -1,20 +1,20 @@
 lockfile_version: '1'
-generated_at: '2026-09-08T19:51:45.263986+00:00'
-apm_version: 0.28.0
+generated_at: '2026-09-16T11:33:05.778297+00:00'
+apm_version: 0.29.0
 dependencies:
 - repo_url: dhcgn/personal-dev-skills
   name: dev-base
   host: github.com
-  resolved_commit: 1ede4d8c898137276f3b19e710d1cc986667f8b0
-  version: 1.1.0
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  version: 1.2.0
   virtual_path: profiles/dev-base
   is_virtual: true
   package_type: apm_package
-  content_hash: sha256:0b769f2a53eb1125f41eee4879333f95a4399a0d57c2c3f664583a1b3f750a35
+  content_hash: sha256:6ec2b3d9df10f347ee37989f7880089b64684eedc654bc944562e72eadde5fcc
 - repo_url: dhcgn/personal-dev-skills
   name: devcontainer-debug-windows
   host: github.com
-  resolved_commit: 1ede4d8c898137276f3b19e710d1cc986667f8b0
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
   version: unknown
   virtual_path: .apm/skills/devcontainer-debug-windows
   is_virtual: true
@@ -26,11 +26,11 @@ dependencies:
   - .agents/skills/devcontainer-debug-windows/SKILL.md
   deployed_file_hashes:
     .agents/skills/devcontainer-debug-windows/SKILL.md: sha256:ddcbef8c331f161541d08f00fa682c1350c910d1f2dadacd395d072d13d9a8bd
-  content_hash: sha256:118a7fc180d08acfddcc2bfa07ee1b073b3814bfaab13f502256088aff4103b0
+  content_hash: sha256:fa48f4d53c0c625d0010141adccaaa1743639fdcf2ed5bf2b48b8d1e4602d98e
 - repo_url: dhcgn/personal-dev-skills
   name: gh
   host: github.com
-  resolved_commit: 1ede4d8c898137276f3b19e710d1cc986667f8b0
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
   version: unknown
   virtual_path: .apm/skills/gh
   is_virtual: true
@@ -42,11 +42,87 @@ dependencies:
   - .agents/skills/gh/SKILL.md
   deployed_file_hashes:
     .agents/skills/gh/SKILL.md: sha256:fb77a6b4d05ed8491399f1868a0b280c917116c0a4a3120324b3ea340aeb8c37
-  content_hash: sha256:1ac1371927caf3f7ab7d1e41505d67b340f8a197f02da382ae50e6ed478d786a
+  content_hash: sha256:11b1620bd3cd417f86cb6ae6af940cd13ffdba26ea6163d4ed88bc9a259d2d77
+- repo_url: dhcgn/personal-dev-skills
+  name: glossary-create
+  host: github.com
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  version: unknown
+  virtual_path: .apm/skills/glossary-create
+  is_virtual: true
+  depth: 2
+  resolved_by: dhcgn/personal-dev-skills
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/glossary-create
+  - .agents/skills/glossary-create/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/glossary-create/SKILL.md: sha256:365526b6d299941976a22462e78e6b8dbc754b634a0f640fb9311a6d1efa8eb3
+  content_hash: sha256:43dd83774b3a601a451990045f23ccbfdbaa8fd0dff307c84f129d48faa1f108
+- repo_url: dhcgn/personal-dev-skills
+  name: glossary-create-issue
+  host: github.com
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  version: unknown
+  virtual_path: .apm/skills/glossary-create-issue
+  is_virtual: true
+  depth: 2
+  resolved_by: dhcgn/personal-dev-skills
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/glossary-create-issue
+  - .agents/skills/glossary-create-issue/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/glossary-create-issue/SKILL.md: sha256:9e7353f76e019cf09353860afb2749ac3242dbd242d6714b2b79350e92c51ad2
+  content_hash: sha256:fc0cfc7c0f2723b97176dd1b67689f8f99209b7084a52b9c79988c56fb3743d2
+- repo_url: dhcgn/personal-dev-skills
+  name: glossary-init
+  host: github.com
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  version: unknown
+  virtual_path: .apm/skills/glossary-init
+  is_virtual: true
+  depth: 2
+  resolved_by: dhcgn/personal-dev-skills
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/glossary-init
+  - .agents/skills/glossary-init/SKILL.md
+  - .agents/skills/glossary-init/assets/glossary/gen/main.go
+  - .agents/skills/glossary-init/assets/glossary/generate.go
+  - .agents/skills/glossary-init/assets/glossary/glossary.go
+  - .agents/skills/glossary-init/assets/glossary/glossary_test.go
+  deployed_file_hashes:
+    .agents/skills/glossary-init/SKILL.md: sha256:8acf3ce62cda3cc79dfae042f41480044696fae2228f26a94d08844ab263a947
+    .agents/skills/glossary-init/assets/glossary/gen/main.go: sha256:28c5a5b1601b4e76f10db73738351007a53be98a7af243dcb90794d4c83411d6
+    .agents/skills/glossary-init/assets/glossary/generate.go: sha256:30b4274b63640d696755a9ba1571064608de1e9fdbf8757a117277ad070f7fe1
+    .agents/skills/glossary-init/assets/glossary/glossary.go: sha256:c0412ce6c096475265030d8f092fd9a465f4a566396ed7f302319fc3002b3bec
+    .agents/skills/glossary-init/assets/glossary/glossary_test.go: sha256:1cf2beefef600567416ee421a596c329e796c6f3105b36cf6b9686464107900e
+  content_hash: sha256:3a3dbcda86c4a10757e2245783416657dd854f975c5b3c0c7020baf7f4a030b9
+- repo_url: dhcgn/personal-dev-skills
+  name: glossary-search
+  host: github.com
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
+  version: unknown
+  virtual_path: .apm/skills/glossary-search
+  is_virtual: true
+  depth: 2
+  resolved_by: dhcgn/personal-dev-skills
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/glossary-search
+  - .agents/skills/glossary-search/SKILL.md
+  - .agents/skills/glossary-search/scripts/glossary-search.ps1
+  - .agents/skills/glossary-search/scripts/glossary-search.sh
+  deployed_file_hashes:
+    .agents/skills/glossary-search/SKILL.md: sha256:f52ad0353e6e2af62aa9742795384dd42d46c01ecf742c96f9bac94255c3e357
+    .agents/skills/glossary-search/scripts/glossary-search.ps1: sha256:35a595203dcd71272f5193f984fd3eb2dc47dc99bc081af69e0d121be8477c16
+    .agents/skills/glossary-search/scripts/glossary-search.sh: sha256:2b988135a2039bd4eeae11ee964557ac3e4bb34620715decc41670f4ca9635d6
+  content_hash: sha256:f2e529be50d760190d230aed3da95e2e1504d57b03c9dd381b30346d54f6e858
 - repo_url: dhcgn/personal-dev-skills
   name: markdown-from-website
   host: github.com
-  resolved_commit: 1ede4d8c898137276f3b19e710d1cc986667f8b0
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
   version: unknown
   virtual_path: .apm/skills/markdown-from-website
   is_virtual: true
@@ -62,11 +138,11 @@ dependencies:
     .agents/skills/markdown-from-website/SKILL.md: sha256:9cdd8a342b42add7d7ffb09d0954f2d1aa56145c245edef444a8fb2c74de1ed0
     .agents/skills/markdown-from-website/scripts/get-markdown.ps1: sha256:8f7cd9332537ce47e708b2c89240ac7aa6c3c7ed7946f16ba0535e98c1e9b1fa
     .agents/skills/markdown-from-website/scripts/get-markdown.sh: sha256:089fa053aa393ace92c89a363829836c759551b4a35f46364a796552f78138e4
-  content_hash: sha256:290a9adf79ac29134b56466c77aaa495b51164b918e7a8231a876afaf37260bd
+  content_hash: sha256:6d60b92cfbe9fe1c1ee306636822c58175f4250d7c0e12c5e57df10b9197c03c
 - repo_url: dhcgn/personal-dev-skills
   name: rtk
   host: github.com
-  resolved_commit: 1ede4d8c898137276f3b19e710d1cc986667f8b0
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
   version: unknown
   virtual_path: .apm/skills/rtk
   is_virtual: true
@@ -78,11 +154,11 @@ dependencies:
   - .agents/skills/rtk/SKILL.md
   deployed_file_hashes:
     .agents/skills/rtk/SKILL.md: sha256:a1250e77a0404e11156ee2709c8e592d70fcfc00df97169791dec7020a9f7141
-  content_hash: sha256:45c31e7ad3529a40503c583aba23e288c39f0e5102c817b01d2b289b7934b783
+  content_hash: sha256:42b00a447aedfbe67e9c40bc2eb2243c23110f36eb03671b48839bc181fae5a8
 - repo_url: dhcgn/personal-dev-skills
   name: wsl
   host: github.com
-  resolved_commit: 1ede4d8c898137276f3b19e710d1cc986667f8b0
+  resolved_commit: d47c61d1913430bab9418557cc3853dee89f766a
   version: unknown
   virtual_path: .apm/skills/wsl
   is_virtual: true
@@ -94,13 +170,13 @@ dependencies:
   - .agents/skills/wsl/SKILL.md
   deployed_file_hashes:
     .agents/skills/wsl/SKILL.md: sha256:37989ad169642b6351cf5ee4d3c37d8fa0ec3949c421ba6ead8a5105cd5151fc
-  content_hash: sha256:3966e67d1b3dfbf1da315f332712bc0b71fc781234d129aa3dbb0246a48a1e09
+  content_hash: sha256:6595d187aea0614f99c311415395932a93bef3ef4a88bb7ac5bba1d2d4ba63e2
 - repo_url: dietrichgebert/ponytail
   materialization_repo_url: DietrichGebert/ponytail
   name: ponytail
   host: github.com
-  resolved_commit: 356918eba965ee1eac64bd3a7f0dd02108350de5
-  version: 356918e
+  resolved_commit: e3ba2aa6f1e6f0bc4d69eb09c9f0d0a93af56156
+  version: e3ba2aa
   depth: 2
   resolved_by: dhcgn/personal-dev-skills
   package_type: marketplace_plugin
@@ -124,7 +200,7 @@ dependencies:
     .agents/skills/ponytail-help/SKILL.md: sha256:2264d1615117b02b0fd5a69ec84cd2757006471a78e4d6c22eed6d581c1d37a4
     .agents/skills/ponytail-review/SKILL.md: sha256:40df33b58fc6ef889b93585733feb9566b76e9586efa7f376785c1e995197ac0
     .agents/skills/ponytail/SKILL.md: sha256:1316a2f3f95741d2300b116fe0c2d81ce4a9568656ed0a62643f54aaf09957f2
-  content_hash: sha256:1d4fc3af9bab7473f2fb6f0d2cad9638f7bd3bae6d1c024ea6ad7d6cdcf76683
+  content_hash: sha256:354782f4c5dea17ec651d2c8eefa1a5be4f0e16d78caa76a9840f541f238f98d
 deployments:
 - kind: project-relative
   target: opencode
@@ -162,6 +238,132 @@ deployments:
   - dhcgn/personal-dev-skills/.apm/skills/gh
   active_owner: dhcgn/personal-dev-skills/.apm/skills/gh
   content_hash: sha256:fb77a6b4d05ed8491399f1868a0b280c917116c0a4a3120324b3ea340aeb8c37
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-create
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-create-issue
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-create-issue/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create-issue
+  content_hash: sha256:9e7353f76e019cf09353860afb2749ac3242dbd242d6714b2b79350e92c51ad2
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-create/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-create
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-create
+  content_hash: sha256:365526b6d299941976a22462e78e6b8dbc754b634a0f640fb9311a6d1efa8eb3
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-init
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-init/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  content_hash: sha256:8acf3ce62cda3cc79dfae042f41480044696fae2228f26a94d08844ab263a947
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-init/assets/glossary/gen/main.go
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  content_hash: sha256:28c5a5b1601b4e76f10db73738351007a53be98a7af243dcb90794d4c83411d6
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-init/assets/glossary/generate.go
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  content_hash: sha256:30b4274b63640d696755a9ba1571064608de1e9fdbf8757a117277ad070f7fe1
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-init/assets/glossary/glossary.go
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  content_hash: sha256:c0412ce6c096475265030d8f092fd9a465f4a566396ed7f302319fc3002b3bec
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-init/assets/glossary/glossary_test.go
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-init
+  content_hash: sha256:1cf2beefef600567416ee421a596c329e796c6f3105b36cf6b9686464107900e
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-search
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-search/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  content_hash: sha256:f52ad0353e6e2af62aa9742795384dd42d46c01ecf742c96f9bac94255c3e357
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-search/scripts/glossary-search.ps1
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  content_hash: sha256:35a595203dcd71272f5193f984fd3eb2dc47dc99bc081af69e0d121be8477c16
+- kind: project-relative
+  target: opencode
+  value: .agents/skills/glossary-search/scripts/glossary-search.sh
+  runtime: null
+  scope: project
+  owners:
+  - dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  active_owner: dhcgn/personal-dev-skills/.apm/skills/glossary-search
+  content_hash: sha256:2b988135a2039bd4eeae11ee964557ac3e4bb34620715decc41670f4ca9635d6
 - kind: project-relative
   target: opencode
   value: .agents/skills/markdown-from-website
