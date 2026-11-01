@@ -5,6 +5,22 @@ description: Conventions for Go desktop apps built with Wails v3 — upgrading t
 
 # Go + Wails v3
 
+## Quick upgrade (automated)
+
+Run the automation script to upgrade all dependencies at once:
+
+```powershell
+.\scripts\upgrade-tools-and-deps.ps1
+```
+
+This script:
+- Checks Go version against the latest release
+- Updates Go dependencies (`go get -u ./...`, `go mod tidy`)
+- Updates Wails CLI (`wails3 update cli`)
+- Updates npm dependencies in `frontend/` (`npm update --save`)
+
+For more control over individual upgrades, follow the manual steps below.
+
 ## Upgrade the frontend dependencies (npm)
 
 Run npm **inside the frontend folder** (usually `frontend/`). Running it at the repo
