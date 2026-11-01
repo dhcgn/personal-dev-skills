@@ -10,7 +10,7 @@ Maybe these are useful for you too, I just begin to collect them. I will update 
   - `apm install dhcgn/personal-dev-skills/profiles/dev-base`
   - `apm install dhcgn/personal-dev-skills/profiles/dev-go` (includes dev-base)
   - `apm install dhcgn/personal-dev-skills/profiles/obsidian`
-- Pin a release by appending the tag: `apm install dhcgn/personal-dev-skills/profiles/dev-go#v1.2.0`
+- Pin a release by appending the tag: `apm install dhcgn/personal-dev-skills/profiles/dev-go#v2.0.0`
 - Install for every project on this machine (opencode): `apm install -g dhcgn/personal-dev-skills/profiles/dev-go --target opencode`
 
 ## Development

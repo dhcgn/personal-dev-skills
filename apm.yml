@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://microsoft.github.io/apm/specs/schemas/manifest-v0.1.schema.json
 name: personal-dev-skills-by-dhcgn
-version: 1.2.0
+version: 2.0.0
 description: APM project for personal-dev-skills by dhcgn
 author: Daniel
 # opencode: skills to .agents/skills/, instructions compiled into AGENTS.md
