@@ -16,6 +16,10 @@ if (-not (Get-Command apm -ErrorAction SilentlyContinue)) {
     exit 1
 }
 
+# Stop at the first failing apm call instead of reporting success (PowerShell 7.3+)
+$ErrorActionPreference = 'Stop'
+$PSNativeCommandUseErrorActionPreference = $true
+
 Push-Location -Path $PSScriptRoot
 try {
     apm install

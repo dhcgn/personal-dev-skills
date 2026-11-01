@@ -12,3 +12,6 @@ dependencies:
   mcp: []
 includes: auto
 scripts: {}
+compilation:
+  agents_md:
+    mode: managed_section
