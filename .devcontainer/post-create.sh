@@ -16,3 +16,9 @@ curl -fsSL https://opencode.ai/install | bash
 
 echo "Installing PI..."
 curl -fsSL https://pi.dev/install.sh | sh
+
+echo "Installing RTK..."
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc  # or ~/.zshrc
+export PATH="$HOME/.local/bin:$PATH"
+curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
+rtk init -g

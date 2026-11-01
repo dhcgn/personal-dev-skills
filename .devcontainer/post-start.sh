@@ -4,8 +4,8 @@ mkdir -p  ~/.config/opencode/
 cp /workspace/.devcontainer/opencode.jsonc  ~/.config/opencode/opencode.jsonc
 
 while IFS= read -r name; do
-    if value=$(printenv "$name" 2>/dev/null); then
-        printf 'SET     %s = %s\n' "$name" "$value"
+    if printenv "$name" >/dev/null 2>&1; then
+        printf 'SET     %s\n' "$name"
     else
         printf 'MISSING %s\n' "$name"
     fi
@@ -14,8 +14,3 @@ done < <(
         "$HOME/.config/opencode/opencode.jsonc" |
     sort -u
 )
-
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc  # or ~/.zshrc
-curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
-
-rtk init -g 
