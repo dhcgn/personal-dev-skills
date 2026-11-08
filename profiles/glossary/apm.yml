@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://microsoft.github.io/apm/specs/schemas/manifest-v0.1.schema.json
+name: glossary
+version: 2.1.0
+description: APM project for glossary
+author: Daniel
+# agent-skills deploys to .agents/skills/, which opencode, Codex, Copilot, Cursor and Gemini all read.
+targets:
+- agent-skills
+dependencies:
+  apm:
+  - path: ../../.apm/skills/glossary-init
+  - path: ../../.apm/skills/glossary-create
+  - path: ../../.apm/skills/glossary-search
+  - path: ../../.apm/skills/glossary-create-issue
+  mcp: []
+includes: auto
+scripts: {}
