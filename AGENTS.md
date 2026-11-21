@@ -1,7 +1,7 @@
 # Working in personal-dev-skills
 
 An [APM](https://microsoft.github.io/apm/) package of my agent skills, plus profiles that bundle sets of skills.
-It works with any agent harness: skills deploy to `.agents/skills/`, and rules are compiled into this file. Tested with APM 0.35.0.
+It works with any agent harness: skills deploy to `.agents/skills/`, and rules are compiled into this file. Tested with APM 0.37.0.
 
 ## Layout
 

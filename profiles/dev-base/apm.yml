@@ -19,7 +19,14 @@ dependencies:
   - path: ../../.apm/skills/glossary-search
   - path: ../../.apm/skills/glossary-create-issue
 
-  - DietrichGebert/ponytail
+  # ponytail is vendored (MIT, see .apm/skills/ponytail/LICENSE): upstream ships hooks for every
+  # harness in one package, which APM 0.37 refuses to install on claude/copilot targets.
+  - path: ../../.apm/skills/ponytail
+  - path: ../../.apm/skills/ponytail-audit
+  - path: ../../.apm/skills/ponytail-debt
+  - path: ../../.apm/skills/ponytail-gain
+  - path: ../../.apm/skills/ponytail-help
+  - path: ../../.apm/skills/ponytail-review
   - cloudflare/security-audit-skill
   mcp: []
 includes: auto
