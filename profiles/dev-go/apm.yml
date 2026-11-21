@@ -16,12 +16,12 @@ dependencies:
   - path: ../../.apm/skills/github-markdown-images
 
   # spf13/go-skills is a Claude marketplace repo, the root resolves to no skills, so reference each skill folder
-  - spf13/go-skills/go
-  - spf13/go-skills/go-release
-  - spf13/go-skills/go-spec-reviewer
-  - spf13/go-skills/wails
-  - spf13/go-skills/cobra-viper
-  - spf13/go-skills/fileflow-pathologize
+  - spf13/go-skills/go#383c2f8916313b7f1260a6d15d92a468e4ecc89e
+  - spf13/go-skills/go-release#383c2f8916313b7f1260a6d15d92a468e4ecc89e
+  - spf13/go-skills/go-spec-reviewer#383c2f8916313b7f1260a6d15d92a468e4ecc89e
+  - spf13/go-skills/wails#383c2f8916313b7f1260a6d15d92a468e4ecc89e
+  - spf13/go-skills/cobra-viper#383c2f8916313b7f1260a6d15d92a468e4ecc89e
+  - spf13/go-skills/fileflow-pathologize#383c2f8916313b7f1260a6d15d92a468e4ecc89e
   mcp: []
 includes: auto
 scripts: {}

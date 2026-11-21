@@ -27,7 +27,7 @@ dependencies:
   - path: ../../.apm/skills/ponytail-gain
   - path: ../../.apm/skills/ponytail-help
   - path: ../../.apm/skills/ponytail-review
-  - cloudflare/security-audit-skill
+  - cloudflare/security-audit-skill#c1c8a8c1471069fb0e188eeaff69b8e8db6564a8
   mcp: []
 includes: auto
 scripts: {}

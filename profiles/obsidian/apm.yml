@@ -8,7 +8,7 @@ targets:
 - agent-skills
 dependencies:
   apm: 
-  - kepano/obsidian-skills
+  - kepano/obsidian-skills#1.2.1
   mcp: []
 includes: auto
 scripts: {}
